@@ -12,6 +12,8 @@ public class UsenameId {
 		textname.sendKeys("arunkumar@gmail.com");
 		WebElement textpass = driver.findElement(By.name("pass"));
 		textpass.sendKeys("98398759486");
+		driver.manage().window().maximize();
+		System.out.println("login function");
 		
 		
 		
